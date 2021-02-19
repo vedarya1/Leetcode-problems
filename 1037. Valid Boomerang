@@ -3,7 +3,9 @@ Question : ![Valid Boomerang](https://leetcode.com/problems/valid-boomerang/disc
 Lets say:
 ```
 (x1,y1) = (1,1) 
+
 (x2,y2) = (2,3) 
+
 (x3,y3) = (3,2)
 ```
 **if slopes of lines with any two point will be same , then they are in straight line**
@@ -25,7 +27,7 @@ Cross multiplication method comes with no error hence we will use that :)
 ````
 	
 * so now if equal then not valid boomerang i.e they are in straight line
- If not equal then they are valid boomerang i.e not in straight line*
+ If not equal to then they are valid boomerang i.e not in straight line*
 
 ```
 class Solution {
